@@ -1,0 +1,40 @@
+*{
+	font-family: arial;
+}
+header section {
+    padding: 30px;
+    min-height: 150px;
+}
+header section.left {
+    width: 700px;
+    display: inline-block;
+    vertical-align: top;
+}
+header section.left span,
+header section.left button,
+header section.left input {
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+header section.left input {
+    font-size: 1.5em;
+    width: 80px;
+}
+
+section.body{
+    text-align: center;
+}
+.card {
+    background-color: lightgoldenrodyellow;
+    text-align: left;
+    width: 350px;
+    height: 175px;
+		text-align: center;
+    border: 2px solid black;
+		border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+    padding: 5px;
+    vertical-align: top;
+}
